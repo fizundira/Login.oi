@@ -4,7 +4,7 @@ function validateForm() {
 
     if (username === "NadilaPutri" && password === "Icacantik123") {
         alert("Login berhasil!");
-        window.location.href = " https://fizundira.github.io/ForYou.oi/"; // Ganti URL tujuan sesuai kebutuhan
+        window.location.href = "https://fizundira.github.io/ForYou.oi/"; // Ganti URL tujuan sesuai kebutuhan
         return false; // Untuk mencegah pengiriman formulir
     } else {
         alert("Login gagal. Cek kembali username dan password.");
